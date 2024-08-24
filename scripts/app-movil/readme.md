@@ -22,3 +22,9 @@
  <p dir="ltr"><img src="/scripts/app-movil/imagenes/pantalla 5.jpg" alt="" width="200" height="400"<br></p>
 <p dir="ltr">Se crea una aplicación móvil con App inventor se incorpora el uso de GoogleMaps, se registra inicialmente lo datos en RedisCloud creando una BD plana, por ahora es una cadena de texto plano en RedisClud con Redis Databases</p>
 <p dir="ltr"><br></p>
+ <p dir="ltr"><img src="/scripts/app-movil/imagenes/basededatos.png"<br></p>
+ <p dir="ltr">Se puede descargar la App desde el siguiente QR</p>
+  <p dir="ltr"><img src="/scripts/app-movil/imagenes/descargar apk android.png"<br></p>
+
+
+
