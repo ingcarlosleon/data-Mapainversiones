@@ -7,7 +7,8 @@ MapaInversiones es una plataforma que fomenta la transparencia del gasto, las in
 
 ¿Cómo podemos mejorar la identificación de brechas en infraestructuras y desarrollo en la planificación de inversiones públicas y privadas para apoyar la resiliencia climática, la igualdad de género, la buena gobernanza y el desarrollo sostenible?
 
-## 📘 Más sobre el problema: https://idb-air-techsprint.vercel.app/problem-statements/planteamiento-del-problema-4
+### 📘 Más sobre el problema: 
+https://idb-air-techsprint.vercel.app/problem-statements/planteamiento-del-problema-4
 
 ## 📚 Equipo: 2
 
