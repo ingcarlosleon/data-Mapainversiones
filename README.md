@@ -20,7 +20,7 @@ https://idb-air-techsprint.vercel.app/problem-statements/planteamiento-del-probl
 - Milton Javier Mahecha Silva
 - Carlos Julio León Caicedo
 
-### 👩 Mentores BID:
+#### 👩 Mentores BID:
 
 - Carole Alazki (Product Owner)
 - Anyela Milena (Arquitecta de Datos)
