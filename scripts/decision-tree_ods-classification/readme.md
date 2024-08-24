@@ -13,7 +13,7 @@
         podrían ayudar a etiquetar obras o infraestructuras que no estén identificadas
         a que ODS pertenecen.</span></p>
 <p><span lang="es">A continuación se muestran los atributos seleccionados</span></p>
-<p><span lang="es"><img src="/scripts/decision-tree_ods-classification/imagenes/pantalla1.png"<br></span></p>
+<p><span lang="es"><img src="/scripts/decision-tree_ods-classification/imagenes/p1.png"<br></span></p>
 <p><span lang="es">&nbsp;</span></p>
 <p><span lang="es">Se &nbsp;muestran el modelo creado y
         las reglas generadas se ponen en el ANEXO II</span></p>
@@ -43,7 +43,7 @@
         avance financiero es de 5.03 corresponde a la ODS 6 con incidencia directa. </span></p>
 <p><span lang="es">Cabe destacar que la ODS 6 propone “Garantizar la disponibilidad y la
         gestión sostenible del agua y el saneamiento para todos”.</span></p>
-<p><span lang="es"><img src="/scripts/decision-tree_ods-classification/imagenes/pantalla2.png"<br></span></p>
+<p><span lang="es"><img src="/scripts/decision-tree_ods-classification/imagenes/p2.png"<br></span></p>
 
 <p><span lang="es">&nbsp;</span></p>
 <p><span lang="es">&nbsp;</span></p>
