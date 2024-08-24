@@ -29,15 +29,13 @@
     <p>
         <!--[if !supportLists]--><span lang="es">●&nbsp;&nbsp;&nbsp;&nbsp;
         </span>
-        <!--[endif]--><span lang="es">Combine datos de gasto
-            público con conjuntos de datos geoespaciales, socioeconómicos y
+        <!--[endif]--><span lang="es">Combine datos de gasto público con conjuntos de datos geoespaciales, socioeconómicos y
             medioambientales para identificar carencias en infraestructuras y necesidades
             de inversión en todos los sectores y regiones.</span><span lang="es"></span>
     </p>
 </div>
 <div>
-    <p><span lang="es">Para
-            dar respuesta a este punto teniendo en cuenta las consideraciones de que cada
+    <p><span lang="es">Para dar respuesta a este punto teniendo en cuenta las consideraciones de que cada
             país pone a disposición diferentes tipos de datos, con diferentes estructuras
             es que para optimizar el tiempo se opta por utilizar un solo recurso según la
             orientación de la pregunta inicial. Por este motivo se toman datos disponibles
@@ -115,13 +113,25 @@
         se presenta el análisis y la propuesta y se evalúan posibles herramientas,
         luego se busca la integración en un ambiente de consulta más disponible y
         accesible.</span><span lang="es"></span></p>
-<p><b><span lang="es">Secuencia para el abordaje del problema</span></b></p>
+        
+<p><b><u><span lang="es">Secuencia para el abordaje del problema</span></b></u></p>
+    
 <p><span lang="es">Del problema 4 se toma el conjunto de datos Abiertos de Argentina: </span><u><span lang="es"><a href="https://www.datos.gob.ar/">https://www.datos.gob.ar/</a></span></u></p>
+
+<p><span lang="es">&nbsp;<img src="/scripts/kmeans-gender-investment-gap/imagenes/pantalla2.png"</span></p>
+
+
 <p><span lang="es">En Dataset se filtra por inversiones y se toma el Mapa de
         Inversiones de Argentina</span></p>
+        
+<p><span lang="es">&nbsp;<img src="/scripts/kmeans-gender-investment-gap/imagenes/pantalla3.png"</span></p>
+        
 <p><span lang="es">Se descarga un set de 7317 datos, como se menciona en la
         web. Datos sobre el presupuesto y la ejecución de las obras del Ministerio de
         Obras Públicas de la República Argentina.</span></p>
+
+<p><span lang="es">&nbsp;<img src="/scripts/kmeans-gender-investment-gap/imagenes/pantalla4.png"</span></p>
+    
 <p><span lang="es">Al ir al mapa disponible se ve discriminado por Obra
         públicas y por Proyectos y en ambos casos hay varios ítems de los cuales ya se
         extrae información</span><span lang="es"></span></p>
@@ -131,7 +141,13 @@
         formato Excel aparecen los totales por provincia pero no la info discriminada
         por sexo</span><span lang="es"></span></p>
 <p><u><span lang="es"><a href="https://censo.gob.ar/index.php/datos_definitivos_total_pais/">https://censo.gob.ar/index.php/datos_definitivos_total_pais/</a></span></u></p>
+
+<p><span lang="es">&nbsp;<img src="/scripts/kmeans-gender-investment-gap/imagenes/pantalla5.png"</span></p>
+
 <p><u><span lang="es"><a href="https://portalgeoestadistico.indec.gob.ar/?indicator_id=92&amp;members=108,31">https://portalgeoestadistico.indec.gob.ar/?indicator_id=92&amp;members=108,31</a></span></u></p>
+
+<p><span lang="es">&nbsp;<img src="/scripts/kmeans-gender-investment-gap/imagenes/pantalla6.png"</span></p>
+
 <p><span lang="es">Entonces se busca en la info geoestadistia y aplicando una
         capa se logra ver esta info que se baja en formato XLSX&nbsp; se procesan y cruzan con los datos de
         inversión. Se usan criterios por género (hombre/mujer) y niñez (entre 0-14
@@ -171,6 +187,8 @@
 <p><span lang="es">&nbsp;</span></p>
 <p><span lang="es">Modelo 2: 8 cluster por la clasificación
         de los 8 tipos de obras</span></p>
+<p><span lang="es">&nbsp;<img src="/scripts/kmeans-gender-investment-gap/imagenes/pantalla7.png"</span></p>
+        
 <p><span lang="EN-GB">Cluster Model </span></p>
 <p><span lang="EN-GB">Cluster 0: 710
         items</span></p>
@@ -234,19 +252,28 @@
 <p><span lang="es">&nbsp;A
         Continuación se observa la distribución de datos de cada cluster.</span></p>
 <p><span lang="es">&nbsp;</span></p>
+<p><span lang="es">&nbsp;<img src="/scripts/kmeans-gender-investment-gap/imagenes/pantalla8.png"</span></p>
+
 <p><span lang="es">En el análisis de las gráficas generadas buscando la correlación entre
         los datos se puede observar que la distribución de la obras analizadas de
         salud, vivienda y educación tiene una cantidad similar en cada uno de los
         clusters.</span></p>
 <p><span lang="es">También habría una mejor distribución de datos con 8 cluster pero se ve
         que la cantidad de obras en salud, vivienda y educación en todos los cluster es
-        muy similar (debiera ser así?)</span></p>
+        muy similar (Podria analisarse este item a que responde, puede ser una desición política)</span></p>
+<p><span lang="es">&nbsp;<img src="/scripts/kmeans-gender-investment-gap/imagenes/pantalla9.png"</span></p>
+<p><span lang="es">&nbsp;<img src="/scripts/kmeans-gender-investment-gap/imagenes/pantalla10.png"</span></p>
+
+        
 <p><span lang="es">&nbsp;</span><span style="font-size: 0.9375rem;">Sin embargo hay más obras finalizadas donde menos mujeres y niños
         tenemos (cluster 7, 5, 4 y 2)sin embargo en cluster 1, 3 y 6 tenemos menos
         obras finalizadas y una distribución aunque menor pero de similar tendencia en
         obras en ejecución</span></p>
-<p><span lang="es">&nbsp;</span><b style="font-size: 0.9375rem;"><span lang="es">Líneas
-            para seguir avanzando</span></b></p>
+
+<p><span lang="es">&nbsp;<img src="/scripts/kmeans-gender-investment-gap/imagenes/pantalla11.png"</span></p>
+
+<p><H1></H1><span lang="es">&nbsp;</span><b style="font-size: 0.9375rem;"><span lang="es">Líneas
+            para seguir avanzando - trabajos futuros </span></b></H1></p>
 <p>
     <!--[if !supportLists]--><span lang="es">●&nbsp;&nbsp;&nbsp;&nbsp;
     </span>
