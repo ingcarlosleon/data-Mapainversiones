@@ -125,22 +125,20 @@
             <h3>Reglas Generadas</h3>
             <p>El árbol de decisiones ha generado un conjunto de reglas que permiten clasificar infraestructuras con base en sus características:</p>
             <ul>
-                <li>Regla 1: Si sectornombre = AGUA Y CLOACA
-                                    |   indice pobl. > 0.056
-                                    |   |   indice pobl. > 0.233: ODS 6 DIRECTA 
-                    comentario sobre puntaje a cada tipo de ODS
-                    {ODS 6 DIRECTA=1450, ODS 9 DIRECTA=0, ODS 13 INDIRECTA=117, ODS 11 INDIRECTA=0, ODS 3 INDIRECTA=0, ODS 5 INDIRECTA=0, ODS 4 INDIRECTA=0, -=0}
-                    </li>
-                <li>Regla 2: Si sectornombre = AGUA Y CLOACA
-                                    |   indice pobl. > 0.056
-                                    |   |   indice pobl. ≤ 0.233
-                                    |   |   |   indice pobl. > 0.073: ODS 13 INDIRECTA 
-                                            Si no
-                                    |   |   |   indice pobl. ≤ 0.073: ODS 6 DIRECTA
-                    comentario sobre puntaje a cada tipo de ODS
-                    {ODS 6 DIRECTA=3, ODS 9 DIRECTA=0, ODS 13 INDIRECTA=77, ODS 11 INDIRECTA=0, ODS 3 INDIRECTA=0, ODS 5 INDIRECTA=0, ODS 4 INDIRECTA=0, -=0}
-                    </li>
-                <!-- Agregar más reglas según sea necesario -->
+               <h1><span lang="es">Tree </span></h1>
+    <p dir="ltr">sectornombre = AGUA Y CLOACA</p>
+    <p dir="ltr">| &nbsp; indice pobl. &gt; 0.056</p>
+    <p dir="ltr">| &nbsp; | &nbsp; indice pobl. &gt; 0.233: ODS 6 DIRECTA {ODS 6 DIRECTA=1450, ODS 9 DIRECTA=0, ODS 13 INDIRECTA=117, ODS 11 INDIRECTA=0, ODS 3 INDIRECTA=0, ODS 5 INDIRECTA=0, ODS 4 INDIRECTA=0, -=0}</p>
+    <p dir="ltr">| &nbsp; | &nbsp; indice pobl. ≤ 0.233</p>
+    <p dir="ltr">| &nbsp; | &nbsp; | &nbsp; indice pobl. &gt; 0.073: ODS 13 INDIRECTA {ODS 6 DIRECTA=3, ODS 9 DIRECTA=0, ODS 13 INDIRECTA=77, ODS 11 INDIRECTA=0, ODS 3 INDIRECTA=0, ODS 5 INDIRECTA=0, ODS 4 INDIRECTA=0, -=0}</p>
+    <p dir="ltr">| &nbsp; | &nbsp; | &nbsp; indice pobl. ≤ 0.073: ODS 6 DIRECTA {ODS 6 DIRECTA=82, ODS 9 DIRECTA=0, ODS 13 INDIRECTA=0, ODS 11 INDIRECTA=0, ODS 3 INDIRECTA=0, ODS 5 INDIRECTA=0, ODS 4 INDIRECTA=0, -=0}</p>
+
+<p><span lang="es">donde se observa que si el sector de inversión corresponde a agua y
+        cloaca y la densidad poblacional es mayor a 0.056 y mayor a 0.233
+        corresponde a la ODS 6 con incidencia directa (y el puntaje es de 1450). </span></p>
+<p><span lang="es">Cabe destacar que la ODS 6 propone “Garantizar la disponibilidad y la
+        gestión sostenible del agua y el saneamiento para todos”.</span></p>
+                
             </ul>
 
             <h3>Modelo de Árbol de Decisiones</h3>
