@@ -24,7 +24,7 @@
 <p dir="ltr"><br></p>
  <p dir="ltr"><img src="/scripts/app-movil/imagenes/basededatos.png"<br></p>
  <p dir="ltr">Se puede descargar la App desde el siguiente QR</p>
-  <p dir="ltr"><img src="/scripts/app-movil/imagenes/descargar apk android.png"<br></p>
+  <p dir="ltr"><img src="/scripts/app-movil/imagenes/descargarAPKAndroid.png"<br></p>
 
 
 
